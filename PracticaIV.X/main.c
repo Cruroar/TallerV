@@ -6,7 +6,7 @@
  * PRÁCTICA IV: Fundamentos de programación en C para microcontroladores
  * [Taller V - Electrónica digital y microcontroladores]
  * 
- * Última modificación el 29 de febrero de 2016, 4:07 PM
+ * Última modificación el 29 de febrero de 2016, 11:30 PM
  */
 
 
@@ -64,9 +64,9 @@ Ejercicio4: // MÁQUINA DE ESTADO DEL PROBLEMA 05 DE LA PRÁCTICA II
     X = 0b0000; // Variable indicadora de sentido de cambio
     while (1) { // Ciclo de repetición infinita para emular la máquina de estado
         switch (X) { // Analiza el estado de X para determinar el tipo de cambio
-            /*Por cada iteración debe ejecutarse una ÚNICA línea de instrucción,
-             por lo tanto, cada uno de los casos debe estar restringido por un
-             juego condicional que limite su acción y un punto de ruptura*/
+                /*Por cada iteración debe ejecutarse una ÚNICA línea de instrucción,
+                 por lo tanto, cada uno de los casos debe estar restringido por un
+                 juego condicional que limite su acción y un punto de ruptura*/
             case 0: // Cambios que pueden ocurrir si X vale 0
                 if (MaquinaEstado = 0b000) {
                 } else if (MaquinaEstado = 0b001) {
